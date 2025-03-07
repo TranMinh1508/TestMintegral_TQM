@@ -1,0 +1,24 @@
+{
+  "ignores": [],
+  "groups": [
+    [
+      "D:/Practice_Unity/GitHub/KingPin_EC(1)_2101/LunaTemp/stage3/processed-scripts/Assets/Game/Scripts/DeviceOrientation.cs",
+      "D:/Practice_Unity/GitHub/KingPin_EC(1)_2101/LunaTemp/stage3/processed-scripts/Assets/Game/Scripts/VideoManager.cs"
+    ],
+    [
+      "D:/Practice_Unity/GitHub/KingPin_EC(1)_2101/LunaTemp/stage3/processed-scripts/Assets/Game/Scripts/Hand.cs"
+    ],
+    [
+      "D:/Practice_Unity/GitHub/KingPin_EC(1)_2101/LunaTemp/stage3/processed-scripts/Assets/Game/Scripts/UIManager.cs"
+    ],
+    [
+      "D:/Practice_Unity/GitHub/Plugin Luna/pipeline/templates/LunaCompiler/Scripts/Properties/AssemblyInfo.cs"
+    ],
+    [
+      "D:/Practice_Unity/GitHub/Plugin Luna/pipeline/templates/LunaCompiler/Scripts/Sources/OtherDummyScript.cs"
+    ],
+    [
+      "D:/Practice_Unity/GitHub/Plugin Luna/pipeline/templates/LunaCompiler/Scripts/obj/Debug/.NETFramework,Version=v4.7.AssemblyAttributes.cs"
+    ]
+  ]
+}
