@@ -9,7 +9,16 @@ public class DeviceOrientation : MonoBehaviour
 
     private void Start()
     {
-        CheckOrientation();
+        if (Screen.width > Screen.height)
+        {
+            isVertical = false;
+            onLandscapeMode?.Invoke();
+        }
+        else
+        {
+            isVertical = true;
+            onPortraitMode?.Invoke();
+        }
     }
 
     public void CheckOrientation()

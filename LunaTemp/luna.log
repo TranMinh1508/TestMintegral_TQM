@@ -2,148 +2,209 @@ Authorized using stored user info.
 stderr: 'rm' is not recognized as an internal or external command,
 operable program or batch file.
 
-Exporting assets from Unity.........
+Exporting assets from Unity...........
 
 [ Stage1 ] Assets exported from Unity and staged for further processing
+Found custom rules for sound Assets/Game/Audio/Corporate.mp3
+  {"channels":1,"startTime":"00:00.000","endTime":"00:15.585","lengthInSeconds":15.585000038146973,"bitrate":128,"script":"","ext":"","name":"Assets/Game/Audio/Corporate.mp3","isOverride":true}
 Resources:
 {}
 [ Stage2 ] Assets postprocessed and bundled successfully
+﻿
+[ error ] $﻿
+Diagnostics gathered successfully
+.NET Core 3 runtime not found.
+.NET Core 3 runtime not found.
+Microsoft (R) Visual C# Compiler version 4.3.1-3.22526.13 (41a5af9d)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\Assets\Game\Scripts\VideoConverter.cs(11,19): warning CS0108: 'VideoConverter.name' hides inherited member 'Object.name'. Use the new keyword if hiding was intended.
+
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\Assets\Game\Scripts\TextEffect.cs(12,37): warning CS0649: Field 'TextEffect.spriteRenderer2' is never assigned to, and will always have its default value null
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\Assets\Game\Scripts\VideoManager.cs(12,42): warning CS0649: Field 'VideoManager.audioBG' is never assigned to, and will always have its default value null
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\Assets\Game\Scripts\VideoManager.cs(11,41): warning CS0169: The field 'VideoManager.ScreenVertical' is never used
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\Assets\Game\Scripts\VideoManager.cs(19,37): warning CS0649: Field 'VideoManager.canvasVertical' is never assigned to, and will always have its default value null
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\Assets\Game\Scripts\VideoManager.cs(10,41): warning CS0169: The field 'VideoManager.ScreenHorizon' is never used
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\Assets\Game\Scripts\TextEffect.cs(14,28): warning CS0649: Field 'TextEffect.timeDelay2' is never assigned to, and will always have its default value 0
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\Assets\Game\Scripts\VideoManager.cs(14,41): warning CS0649: Field 'VideoManager.image' is never assigned to, and will always have its default value null
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\Assets\Game\Scripts\TextEffect.cs(10,40): warning CS0649: Field 'TextEffect.txt2' is never assigned to, and will always have its default value null
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\Assets\Game\Scripts\TextEffect.cs(13,28): warning CS0649: Field 'TextEffect.timeDelay1' is never assigned to, and will always have its default value 0
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\Assets\Game\Scripts\TextEffect.cs(15,22): warning CS0169: The field 'TextEffect.sequence' is never used
+
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\Assets\Game\Scripts\TextEffect.cs(11,37): warning CS0649: Field 'TextEffect.spriteRenderer1' is never assigned to, and will always have its default value null
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\Assets\Game\Scripts\VideoManager.cs(16,41): warning CS0169: The field 'VideoManager.BG_V' is never used
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\Assets\Game\Scripts\VideoManager.cs(8,42): warning CS0649: Field 'VideoManager.fullVidHorizon' is never assigned to, and will always have its default value null
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\Assets\Game\Scripts\Hand.cs(9,39): warning CS0649: Field 'Hand.anim' is never assigned to, and will always have its default value null
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\Assets\Game\Scripts\VideoManager.cs(9,42): warning CS0649: Field 'VideoManager.fullVidVertical' is never assigned to, and will always have its default value null
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\Assets\Game\Scripts\VideoManager.cs(13,35): warning CS0169: The field 'VideoManager.hand' is never used
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\Assets\Game\Scripts\VideoManager.cs(18,37): warning CS0649: Field 'VideoManager.canvasHorizon' is never assigned to, and will always have its default value null
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\Assets\Game\Scripts\Hand.cs(11,40): warning CS0649: Field 'Hand.point1' is never assigned to, and will always have its default value null
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\Assets\Game\Scripts\Hand.cs(12,40): warning CS0649: Field 'Hand.point2' is never assigned to, and will always have its default value null
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\Assets\Game\Scripts\Hand.cs(8,42): warning CS0649: Field 'Hand.source' is never assigned to, and will always have its default value null
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\Assets\Game\Scripts\TextEffect.cs(9,40): warning CS0649: Field 'TextEffect.txt1' is never assigned to, and will always have its default value null
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\Assets\Game\Scripts\VideoManager.cs(20,18): warning CS0414: The field 'VideoManager.isVertical' is assigned but its value is never used
+
+Usercode compiled successfully!
+.NET Core 3 runtime not found.
+.NET Core 3 runtime not found.
+code-v2:compose complete successfully!
 Authorized using stored user info.
 MSBuild version 17.12.6+db5f6012c for .NET Framework
 
-Build started 1/20/2025 10:17:52 AM.
+Build started 3/24/2025 10:37:10 AM.
 
 
 
-Project "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" on node 1 (Rebuild target(s)).
+Project "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" on node 1 (Rebuild target(s)).
 CoreClean:
-  Deleting file "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll".
+  Deleting file "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll".
 
-  Deleting file "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.pdb".
+  Deleting file "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.pdb".
 
-  Deleting file "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.dll".
+  Deleting file "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.dll".
 
-  Deleting file "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll".
+  Deleting file "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll".
 
-  Deleting file "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll".
+  Deleting file "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll".
 
-  Deleting file "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll".
+  Deleting file "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll".
 
-  Deleting file "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\JetBrains.dll".
+  Deleting file "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.dll".
 
-  Deleting file "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.dll".
+  Deleting file "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll".
 
-  Deleting file "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll".
+  Deleting file "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll".
 
-  Deleting file "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll".
+  Deleting file "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll".
 
-  Deleting file "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll".
+  Deleting file "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll".
 
-  Deleting file "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll".
+  Deleting file "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\TextMeshPro.dll".
 
-  Deleting file "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\TextMeshPro.dll".
+  Deleting file "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.dll".
 
-  Deleting file "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.dll".
+  Deleting file "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UI.dll".
 
-  Deleting file "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UI.dll".
+  Deleting file "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UniversalRenderPipeline.dll".
 
-  Deleting file "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UniversalRenderPipeline.dll".
+  Deleting file "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.xml".
 
-  Deleting file "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.xml".
+  Deleting file "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.xml".
 
-  Deleting file "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.xml".
+  Deleting file "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.xml".
 
-  Deleting file "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.xml".
+  Deleting file "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.xml".
 
-  Deleting file "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.xml".
+  Deleting file "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.xml".
 
-  Deleting file "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.xml".
+  Deleting file "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.xml".
 
-  Deleting file "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.xml".
+  Deleting file "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.xml".
 
-  Deleting file "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.xml".
+  Deleting file "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.xml".
 
-  Deleting file "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.xml".
+  Deleting file "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\JetBrains.dll".
 
-  Deleting file "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.AssemblyReference.cache".
+  Deleting file "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.AssemblyReference.cache".
 
-  Deleting file "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.CoreCompileInputs.cache".
+  Deleting file "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.CoreCompileInputs.cache".
 
-  Deleting file "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.Up2Date".
+  Deleting file "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.Up2Date".
 
-  Deleting file "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.dll".
+  Deleting file "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.dll".
 
-  Deleting file "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.pdb".
+  Deleting file "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.pdb".
 
 GenerateTargetFrameworkMonikerAttribute:
 Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
 
 CoreCompile:
-  C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Roslyn\csc.exe /noconfig /nowarn:CS0626,1701,1702 /fullpaths /nostdlib+ /errorreport:prompt /warn:4 /define:UNITY_LUNA;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_2022;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2022_3;UNITY_2022_3_41 /highentropyva+ /reference:"D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.dll" /reference:"D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll" /reference:"D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll" /reference:"D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll" /reference:"D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\packages\com.unity.ide.rider\3.0.0\JetBrains.dll" /reference:"D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll" /reference:"D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll" /reference:"D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll" /reference:"D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll" /reference:"D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll" /reference:"D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.6\TextMeshPro.dll" /reference:"D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll" /reference:"D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll" /reference:"D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll" /debug+ /debug:full /optimize- /out:obj\Debug\UnityScriptsCompiler.dll /subsystemversion:6.00 /target:library /warnaserror- /utf8output /langversion:8 "D:\Practice_Unity\GitHub\KingPin_EC(1)_2101\LunaTemp\stage3\processed-scripts\Assets\Game\Scripts\DeviceOrientation.cs" "D:\Practice_Unity\GitHub\KingPin_EC(1)_2101\LunaTemp\stage3\processed-scripts\Assets\Game\Scripts\Hand.cs" "D:\Practice_Unity\GitHub\KingPin_EC(1)_2101\LunaTemp\stage3\processed-scripts\Assets\Game\Scripts\UIManager.cs" "D:\Practice_Unity\GitHub\KingPin_EC(1)_2101\LunaTemp\stage3\processed-scripts\Assets\Game\Scripts\VideoManager.cs" Properties/AssemblyInfo.cs Sources/OtherDummyScript.cs "obj\Debug\.NETFramework,Version=v4.7.AssemblyAttributes.cs"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Roslyn\csc.exe /noconfig /nowarn:CS0626,1701,1702 /fullpaths /nostdlib+ /errorreport:prompt /warn:4 /define:UNITY_LUNA;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_2022;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2022_3;UNITY_2022_3_41 /highentropyva+ /reference:"D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.dll" /reference:"D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll" /reference:"D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll" /reference:"D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll" /reference:"D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\packages\com.unity.ide.rider\3.0.0\JetBrains.dll" /reference:"D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll" /reference:"D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll" /reference:"D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll" /reference:"D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll" /reference:"D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll" /reference:"D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.6\TextMeshPro.dll" /reference:"D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll" /reference:"D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll" /reference:"D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll" /debug+ /debug:full /optimize- /out:obj\Debug\UnityScriptsCompiler.dll /subsystemversion:6.00 /target:library /warnaserror- /utf8output /langversion:8 D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\Constant.cs D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\DeviceOrientation.cs D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\DG\Tweening\DOTweenCYInstruction.cs D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\DG\Tweening\DOTweenModuleAudio.cs D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\DG\Tweening\DOTweenModulePhysics.cs D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\DG\Tweening\DOTweenModulePhysics2D.cs D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\DG\Tweening\DOTweenModuleSprite.cs D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\DG\Tweening\DOTweenModuleUI.cs D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\DG\Tweening\DOTweenModuleUnityVersion.cs D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\DG\Tweening\DOTweenModuleUtils.cs D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\Hand.cs D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\Properties\AssemblyInfo.cs D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\Singleton.cs D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\Sound.cs D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\SoundManager.cs D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\TextEffect.cs D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\UIManager.cs D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\VideoConverter.cs D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\VideoManager.cs "obj\Debug\.NETFramework,Version=v4.7.AssemblyAttributes.cs"
 
-D:\Practice_Unity\GitHub\KingPin_EC(1)_2101\LunaTemp\stage3\processed-scripts\Assets\Game\Scripts\VideoManager.cs(11,41): warning CS0649: Field 'VideoManager.ScreenHorizon' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\Hand.cs(17,20): warning CS0649: Field 'Hand.point2' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-D:\Practice_Unity\GitHub\KingPin_EC(1)_2101\LunaTemp\stage3\processed-scripts\Assets\Game\Scripts\VideoManager.cs(9,42): warning CS0649: Field 'VideoManager.fullVidHorizon' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\TextEffect.cs(23,16): warning CS0649: Field 'TextEffect.timeDelay2' is never assigned to, and will always have its default value 0 [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\TextEffect.cs(20,16): warning CS0649: Field 'TextEffect.timeDelay1' is never assigned to, and will always have its default value 0 [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\VideoManager.cs(15,21): warning CS0169: The field 'VideoManager.ScreenHorizon' is never used [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\Hand.cs(14,20): warning CS0649: Field 'Hand.point1' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\Hand.cs(8,22): warning CS0649: Field 'Hand.source' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\TextEffect.cs(17,25): warning CS0649: Field 'TextEffect.spriteRenderer2' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\VideoManager.cs(18,21): warning CS0169: The field 'VideoManager.ScreenVertical' is never used [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-D:\Practice_Unity\GitHub\KingPin_EC(1)_2101\LunaTemp\stage3\processed-scripts\Assets\Game\Scripts\Hand.cs(8,39): warning CS0649: Field 'Hand.anim' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-D:\Practice_Unity\GitHub\KingPin_EC(1)_2101\LunaTemp\stage3\processed-scripts\Assets\Game\Scripts\VideoManager.cs(13,42): warning CS0649: Field 'VideoManager.audioBG' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-D:\Practice_Unity\GitHub\KingPin_EC(1)_2101\LunaTemp\stage3\processed-scripts\Assets\Game\Scripts\VideoManager.cs(10,42): warning CS0649: Field 'VideoManager.fullVidVertical' is never assigned to, and will always have its default value null [D:\Practice_Un
-ity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-D:\Practice_Unity\GitHub\KingPin_EC(1)_2101\LunaTemp\stage3\processed-scripts\Assets\Game\Scripts\Hand.cs(7,42): warning CS0649: Field 'Hand.source' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\VideoManager.cs(21,22): warning CS0649: Field 'VideoManager.audioBG' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\TextEffect.cs(14,25): warning CS0649: Field 'TextEffect.spriteRenderer1' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-D:\Practice_Unity\GitHub\KingPin_EC(1)_2101\LunaTemp\stage3\processed-scripts\Assets\Game\Scripts\VideoManager.cs(12,41): warning CS0649: Field 'VideoManager.ScreenVertical' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\VideoManager.cs(12,22): warning CS0649: Field 'VideoManager.fullVidVertical' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\VideoManager.cs(9,22): warning CS0649: Field 'VideoManager.fullVidHorizon' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\VideoManager.cs(30,21): warning CS0169: The field 'VideoManager.BG_V' is never used [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\VideoManager.cs(27,21): warning CS0649: Field 'VideoManager.image' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\TextEffect.cs(25,19): warning CS0169: The field 'TextEffect.sequence' is never used [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\Hand.cs(11,19): warning CS0649: Field 'Hand.anim' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\VideoManager.cs(24,15): warning CS0169: The field 'VideoManager.hand' is never used [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\VideoManager.cs(33,17): warning CS0649: Field 'VideoManager.canvasHorizon' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\VideoManager.cs(36,17): warning CS0649: Field 'VideoManager.canvasVertical' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\TextEffect.cs(8,20): warning CS0649: Field 'TextEffect.txt1' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\TextEffect.cs(11,20): warning CS0649: Field 'TextEffect.txt2' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\VideoManager.cs(38,15): warning CS0414: The field 'VideoManager.isVertical' is assigned but its value is never used [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
   CompilerServer: server - server processed compilation - Scripts
 
 _CopyFilesMarkedCopyLocal:
-  Copying file from "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll" to "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll".
+  Copying file from "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.dll" to "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.dll".
 
-  Copying file from "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll" to "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll".
-  Copying file from "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\packages\com.unity.ide.rider\3.0.0\JetBrains.dll" to "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\JetBrains.dll".
-  Copying file from "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll" to "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll".
-  Copying file from "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll" to "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.dll".
+  Copying file from "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll" to "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.dll".
+  Copying file from "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll" to "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll".
+  Copying file from "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\packages\com.unity.ide.rider\3.0.0\JetBrains.dll" to "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\JetBrains.dll".
+  Copying file from "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll" to "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll".
+  Copying file from "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll" to "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll".
 
-  Copying file from "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.dll" to "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.dll".
+  Copying file from "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll" to "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll".
+  Copying file from "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.6\TextMeshPro.dll" to "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\TextMeshPro.dll".
 
-  Copying file from "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll" to "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll".
+  Copying file from "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll" to "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll".
+  Copying file from "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll" to "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll".
+  Copying file from "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll" to "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll".
 
-  Copying file from "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll" to "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll".
+  Copying file from "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll" to "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UI.dll".
 
-  Copying file from "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll" to "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll".
+  Copying file from "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll" to "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.dll".
+  Copying file from "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll" to "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UniversalRenderPipeline.dll".
 
-  Copying file from "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll" to "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll".
+  Copying file from "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.xml" to "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.xml".
 
-  Copying file from "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.6\TextMeshPro.dll" to "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\TextMeshPro.dll".
+  Copying file from "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.xml" to "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.xml".
 
-  Copying file from "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll" to "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.dll".
-  Copying file from "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll" to "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UI.dll".
+  Copying file from "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.xml" to "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.xml".
 
-  Copying file from "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll" to "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UniversalRenderPipeline.dll".
+  Copying file from "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.xml" to "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.xml".
 
-  Copying file from "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.xml" to "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.xml".
-  Copying file from "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.xml" to "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.xml".
+  Copying file from "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.xml" to "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.xml".
+  Copying file from "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.xml" to "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.xml".
 
-  Copying file from "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.xml" to "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newto
-nsoft.Json.xml".
-  Copying file from "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.xml" to "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.xml".
-  Copying file from "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.xml" to "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.xml".
+  Copying file from "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.xml" to "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.xml".
 
-  Copying file from "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.xml" to "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.xml".
+  Copying file from "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.xml" to "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.xml".
 
-  Copying file from "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.xml" to "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.xml".
+  Creating "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.Up2Date" because "AlwaysCreate" was specified.
 
-  Copying file from "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.xml" to "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.xml".
-
-  Creating "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.Up2Date" because "AlwaysCreate" was specified.
-
-  Touching "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.Up2Date".
+  Touching "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.Up2Date".
 
 CopyFilesToOutputDirectory:
-  Copying file from "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.dll" to "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll".
+  Copying file from "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.dll" to "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll".
 
-  Scripts -> D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll
+  Scripts -> D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll
 
-  Copying file from "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.pdb" to "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.pdb".
+  Copying file from "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.pdb" to "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.pdb".
 
 BridgeNetCompilerTask:
   Bridge started
@@ -153,30 +214,44 @@ BridgeNetCompilerTask:
 
   Bridge done
 
-Done Building Project "D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" (Rebuild target(s)).
+Done Building Project "D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" (Rebuild target(s)).
 
 
 Build succeeded.
 
 
 
-"D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" (Rebuild target) (1) ->
+"D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" (Rebuild target) (1) ->
 (CoreCompile target) -> 
-  D:\Practice_Unity\GitHub\KingPin_EC(1)_2101\LunaTemp\stage3\processed-scripts\Assets\Game\Scripts\VideoManager.cs(11,41): warning CS0649: Field 'VideoManager.ScreenHorizon' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\Hand.cs(17,20): warning CS0649: Field 'Hand.point2' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\TextEffect.cs(23,16): warning CS0649: Field 'TextEffect.timeDelay2' is never assigned to, and will always have its default value 0 [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\TextEffect.cs(20,16): warning CS0649: Field 'TextEffect.timeDelay1' is never assigned to, and will always have its default value 0 [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\VideoManager.cs(15,21): warning CS0169: The field 'VideoManager.ScreenHorizon' is never used [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-  D:\Practice_Unity\GitHub\KingPin_EC(1)_2101\LunaTemp\stage3\processed-scripts\Assets\Game\Scripts\VideoManager.cs(9,42): warning CS0649: Field 'VideoManager.fullVidHorizon' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  D:\Practice_Unity\GitHub\KingPin_EC(1)_2101\LunaTemp\stage3\processed-scripts\Assets\Game\Scripts\Hand.cs(8,39): warning CS0649: Field 'Hand.anim' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  D:\Practice_Unity\GitHub\KingPin_EC(1)_2101\LunaTemp\stage3\processed-scripts\Assets\Game\Scripts\VideoManager.cs(13,42): warning CS0649: Field 'VideoManager.audioBG' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  D:\Practice_Unity\GitHub\KingPin_EC(1)_2101\LunaTemp\stage3\processed-scripts\Assets\Game\Scripts\VideoManager.cs(10,42): warning CS0649: Field 'VideoManager.fullVidVertical' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  D:\Practice_Unity\GitHub\KingPin_EC(1)_2101\LunaTemp\stage3\processed-scripts\Assets\Game\Scripts\Hand.cs(7,42): warning CS0649: Field 'Hand.source' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  D:\Practice_Unity\GitHub\KingPin_EC(1)_2101\LunaTemp\stage3\processed-scripts\Assets\Game\Scripts\VideoManager.cs(12,41): warning CS0649: Field 'VideoManager.ScreenVertical' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Plugin Luna\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\Hand.cs(14,20): warning CS0649: Field 'Hand.point1' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\Hand.cs(8,22): warning CS0649: Field 'Hand.source' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\TextEffect.cs(17,25): warning CS0649: Field 'TextEffect.spriteRenderer2' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\VideoManager.cs(18,21): warning CS0169: The field 'VideoManager.ScreenVertical' is never used [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\VideoManager.cs(21,22): warning CS0649: Field 'VideoManager.audioBG' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\TextEffect.cs(14,25): warning CS0649: Field 'TextEffect.spriteRenderer1' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\VideoManager.cs(12,22): warning CS0649: Field 'VideoManager.fullVidVertical' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\VideoManager.cs(9,22): warning CS0649: Field 'VideoManager.fullVidHorizon' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\VideoManager.cs(30,21): warning CS0169: The field 'VideoManager.BG_V' is never used [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\VideoManager.cs(27,21): warning CS0649: Field 'VideoManager.image' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\TextEffect.cs(25,19): warning CS0169: The field 'TextEffect.sequence' is never used [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\Hand.cs(11,19): warning CS0649: Field 'Hand.anim' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\VideoManager.cs(24,15): warning CS0169: The field 'VideoManager.hand' is never used [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompile
+r\Scripts\Scripts.csproj]
+  D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\VideoManager.cs(33,17): warning CS0649: Field 'VideoManager.canvasHorizon' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\VideoManager.cs(36,17): warning CS0649: Field 'VideoManager.canvasVertical' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\TextEffect.cs(8,20): warning CS0649: Field 'TextEffect.txt1' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\TextEffect.cs(11,20): warning CS0649: Field 'TextEffect.txt2' is never assigned to, and will always have its default value null [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\Practice_Unity\GitHub\EndCard\HomeIsland\HomeIsland_EC_2103\LunaTemp\Assemblies\stage_2\decompiled\VideoManager.cs(38,15): warning CS0414: The field 'VideoManager.isVertical' is assigned but its value is never used [D:\Practice_Unity\GitHub\Luna Plugin\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-
-    7 Warning(s)
+    22 Warning(s)
     0 Error(s)
 
-
-Time Elapsed 00:00:11.86
+Time Elapsed 00:00:08.98
 
 Source code compiled successfully!
 ﻿
